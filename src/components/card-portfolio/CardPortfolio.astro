@@ -4,9 +4,7 @@ const {
 	title,
 	descripcion,
 	imgSrc,
-	skills,
-	repoURL,
-	demoURL,
+	downloadURL,
 	averageBrightness,
 } = Astro.props;
 ---
@@ -28,7 +26,7 @@ const {
 			<p>{descripcion}</p>
 
 			<div class="buttons">
-				<a href={repoURL}>
+				<a href={downloadURL}>
 					<span>
 						Descargar
 						{(<iconify-icon icon="quill:link-out" />)}

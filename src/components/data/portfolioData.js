@@ -22,12 +22,10 @@ export const portafolioData = [
 		skills: ['React', 'StyledComponents'],
 		descripcion:
 			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
+		downloadURL: '/portfolioAlicia/docs/Alicia_2_mesh_DC.zip',
 		anim: 'fade-right',
 	},
 ];
-
 
 /**
  * @description Se mapea el portafolioData para que tenga los iconos de las habilidades

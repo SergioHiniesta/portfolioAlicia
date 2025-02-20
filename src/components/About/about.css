@@ -8,7 +8,7 @@
 
 .about__container {
 	display: flex;
-	padding: 11rem 13.1rem;
+	padding: 3.1rem;
 	/* flex-wrap: wrap; */
 	justify-content: space-around;
 	gap: 4.4rem;
@@ -30,14 +30,13 @@
 .about__content {
 	display: flex;
 	flex-direction: column;
-	max-width: 75rem;
+	max-width: 90rem;
 	gap: 2.1rem;
 	justify-content: center;
 }
 
 .about__text {
 	font-size: 2.1rem;
-	max-width: 70.19rem;
 }
 
 @media screen and (max-width: 768px) {

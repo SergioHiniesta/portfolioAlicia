@@ -17,14 +17,37 @@
  */
 export const portafolioData = [
 	{
-		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
-		title: 'Restaurant',
-		skills: ['React', 'StyledComponents'],
+		imgSrc: '/portfolioAlicia/img/coyote.jpg',
+		title: 'Coyote',
 		descripcion:
 			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
 		downloadURL: '/portfolioAlicia/docs/Alicia_2_mesh_DC.zip',
 		anim: 'fade-right',
 	},
+	{
+		imgSrc: '/portfolioAlicia/img/liebre.png',
+		title: 'Liebre',
+		descripcion:
+			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+		downloadURL: '/portfolioAlicia/docs/Alicia_2_mesh_DC.zip',
+		anim: 'fade-right',
+	},
+	{
+		imgSrc: '/portfolioAlicia/img/grabado.png',
+		title: 'Grabados',
+		descripcion:
+			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+		downloadURL: '/portfolioAlicia/docs/Alicia_2_mesh_DC.zip',
+		anim: 'fade-right',
+	},
+	{
+		imgSrc: '/portfolioAlicia/img/escultura.png',
+		title: 'Escultura',
+		descripcion:
+			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+		downloadURL: '/portfolioAlicia/docs/Alicia_2_mesh_DC.zip',
+		anim: 'fade-right',
+	}
 ];
 
 /**

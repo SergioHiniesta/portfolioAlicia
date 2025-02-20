@@ -49,6 +49,11 @@
 	flex-direction: column;
 	justify-content: center;
 	gap: 4rem;
+	
+	.buttons__container{
+		display: flex;
+		gap: 2rem;
+	}
 }
 
 .hero__container .text__content .hero__title {
@@ -80,6 +85,11 @@
 	}
 	.hero .text__content {
 		align-items: center;
+
+		.hero__title{
+			padding: 1rem;
+    		text-align: center;
+		}
 	}
 
 	.hero .hero__text {

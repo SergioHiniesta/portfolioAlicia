@@ -89,10 +89,11 @@ p{
 }
 
 .color__gradiente {
-	background: var(--text-gradient);
+	/* background: var(--text-gradient);
 	-webkit-background-clip: text;
 	background-clip: text;
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: transparent; */
+	color:burlywood;
 }
 
 .max__width {

@@ -53,13 +53,13 @@
 	--text-button: 1.2rem;
 	--font-montserrat: 'Montserrat', sans-serif;
 	--max-width: 108rem;
-	--site-bg: var(--primary-0);
+	/* --site-bg: var(--primary-0);
 	--hero-bg: linear-gradient(
 		-54deg,
 		var(--primary-0) -23%,
 		var(--primary-20),
 		var(--primary-0) 51%
-	);
+	); */
 
 	--text-gradient: radial-gradient(
 		circle farthest-corner at center center,
@@ -77,8 +77,9 @@ html {
 }
 body {
 	width: 100%;
-	background: var(--site-bg) no-repeat;
-	background: var(--site-bg) no-repeat;
+	/* background: var(--site-bg) no-repeat;
+	background: var(--site-bg) no-repeat; */
+	background-image: url("/portfolioAlicia/img/bg/BG.png");
 }
 main {
 	align-self: center;
@@ -88,12 +89,13 @@ p{
 	font-size: var(--text-general);
 }
 
+
 .color__gradiente {
 	/* background: var(--text-gradient);
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent; */
-	color:burlywood;
+	color:#ae2422;
 }
 
 .max__width {

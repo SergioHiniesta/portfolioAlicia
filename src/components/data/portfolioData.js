@@ -34,15 +34,23 @@ export const portafolioData = [
 	},
 	{
 		imgSrc: '/portfolioAlicia/img/grabado.png',
-		title: 'Grabados',
+		title: 'Introspección',
+		descripcion:
+			'Técnica: Grabado Formato: 56 x 38,5 Fecha: 2024',
+		downloadURL: '/portfolioAlicia/docs/Alicia_2_mesh_DC.zip',
+		anim: 'fade-right',
+	},
+	{
+		imgSrc: '/portfolioAlicia/img/Proyectos.png',
+		title: 'Proyectos',
 		descripcion:
 			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
 		downloadURL: '/portfolioAlicia/docs/Alicia_2_mesh_DC.zip',
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: '/portfolioAlicia/img/escultura.png',
-		title: 'Escultura',
+		imgSrc: '/portfolioAlicia/img/Videojuegos.png',
+		title: 'Videojuegos',
 		descripcion:
 			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
 		downloadURL: '/portfolioAlicia/docs/Alicia_2_mesh_DC.zip',

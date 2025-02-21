@@ -23,7 +23,8 @@
 	width: 100%;
 	top: 0;
 	transition: 0.35s;
-	background: #231724 !important;
+	background: #0D0D0D !important;
+	backdrop-filter: blur(10px);
 	transform: translateY(63%);
 	padding-top: 15px;
 	transition-property: transform, padding-top;

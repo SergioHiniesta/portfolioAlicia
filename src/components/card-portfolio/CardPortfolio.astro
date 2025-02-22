@@ -6,6 +6,7 @@ const {
 	imgSrc,
 	downloadURL,
 	averageBrightness,
+	itchioURL
 } = Astro.props;
 ---
 
@@ -32,6 +33,14 @@ const {
 						{(<iconify-icon icon="quill:link-out" />)}
 					</span>
 				</a>
+				{itchioURL && (
+					<a href={itchioURL}>
+					  <span>
+						Itch.io
+						<iconify-icon icon="quill:link-out" />
+					  </span>
+					</a>
+				  )}
 			</div>
 		</div>
 	</div>

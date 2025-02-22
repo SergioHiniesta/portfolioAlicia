@@ -5,8 +5,8 @@
  * @property {string} title Titulo de la tarjeta
  * @property {string[]} skills Array con tus habilidades ej: ['React', 'CSS', 'JavaScript']
  * @property {string} descripcion La descripcion de la tarjeta
- * @property {string} demoURL Url de una pagina de demostración
- * @property {string} repoURL Url del repositorio, ej: https://github.com/usuario/repo
+ * @property {string} downloadURL Url de descarga
+ * @property {string} itchioURL Url de Itchio
  * @property {string} anim La animación que se ejecutará cuando se cargue la tarjeta, ej: fade-up, fade-right, fade-left, fade-down
  * @property {number} averageBrightness Cuanto brillo tendrá el color de fondo de la tarjeta, ej: 0.1
  */
@@ -18,18 +18,18 @@
 export const portafolioData = [
 	{
 		imgSrc: '/portfolioAlicia/img/coyote.jpg',
-		title: 'Coyote',
+		title: 'El Coyote',
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		downloadURL: '/portfolioAlicia/docs/Alicia_2_mesh_DC.zip',
+			'Técnica: Escultura en Barro y positivada en Escayola Dimensiones: 85 x 66 cm Fecha: 2023',
+		downloadURL: '/portfolioAlicia/docs/Coyote.zip',
 		anim: 'fade-right',
 	},
 	{
 		imgSrc: '/portfolioAlicia/img/liebre.png',
-		title: 'Liebre',
+		title: 'La Liebre',
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		downloadURL: '/portfolioAlicia/docs/Alicia_2_mesh_DC.zip',
+			'Técnica: Escultura en Bronce Dimensiones: 45 x 25 x 15’5 Date: 2024',
+		downloadURL: '/portfolioAlicia/docs/liebre.zip',
 		anim: 'fade-right',
 	},
 	{
@@ -37,23 +37,24 @@ export const portafolioData = [
 		title: 'Introspección',
 		descripcion:
 			'Técnica: Grabado Formato: 56 x 38,5 Fecha: 2024',
-		downloadURL: '/portfolioAlicia/docs/Alicia_2_mesh_DC.zip',
+		downloadURL: '/portfolioAlicia/docs/Introspección.zip',
 		anim: 'fade-right',
 	},
 	{
 		imgSrc: '/portfolioAlicia/img/Proyectos.png',
 		title: 'Proyectos',
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		downloadURL: '/portfolioAlicia/docs/Alicia_2_mesh_DC.zip',
+			'',
+		downloadURL: '/portfolioAlicia/docs/proyectos.zip',
 		anim: 'fade-right',
 	},
 	{
 		imgSrc: '/portfolioAlicia/img/Videojuegos.png',
 		title: 'Videojuegos',
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		downloadURL: '/portfolioAlicia/docs/Alicia_2_mesh_DC.zip',
+			'',
+		downloadURL: '/portfolioAlicia/docs/Videojuegos.zip',
+		itchioURL: 'https://turbobutateam.itch.io/extinct-spirit',
 		anim: 'fade-right',
 	}
 ];

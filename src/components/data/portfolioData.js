@@ -20,7 +20,7 @@ export const portafolioData = [
 		imgSrc: '/portfolioAlicia/img/coyote.jpg',
 		title: 'El Coyote',
 		descripcion:
-			'Técnica: Escultura en Barro y positivada en Escayola Dimensiones: 85 x 66 cm Fecha: 2023',
+			'Técnica: Escultura en Barro y positivada en Escayola. Dimensiones: 85 x 66 cm. Fecha: 2023',
 		downloadURL: '/portfolioAlicia/docs/Coyote.zip',
 		anim: 'fade-right',
 	},
@@ -28,7 +28,7 @@ export const portafolioData = [
 		imgSrc: '/portfolioAlicia/img/liebre.png',
 		title: 'La Liebre',
 		descripcion:
-			'Técnica: Escultura en Bronce Dimensiones: 45 x 25 x 15’5 Date: 2024',
+			'Técnica: Escultura en Bronce. Dimensiones: 45 x 25 x 15’5. Fecha: 2024',
 		downloadURL: '/portfolioAlicia/docs/liebre.zip',
 		anim: 'fade-right',
 	},
@@ -36,7 +36,7 @@ export const portafolioData = [
 		imgSrc: '/portfolioAlicia/img/grabado.png',
 		title: 'Introspección',
 		descripcion:
-			'Técnica: Grabado Formato: 56 x 38,5 Fecha: 2024',
+			'Técnica: Grabado. Formato: 56 x 38,5. Fecha: 2024',
 		downloadURL: '/portfolioAlicia/docs/Introspección.zip',
 		anim: 'fade-right',
 	},
